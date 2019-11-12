@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Edit Task</h1>
+  <%= bootstrap_form_for(@task) do |f| %>
+    <%= f.text_field :title %>
+    <%= f.text_field :details %>
+    <%= f.check_box :completed %>
+    <%= f.submit class: 'btn btn-primary mt-2'%>
+  <% end %>
+  <hr>
+  <p class="mt-3"><i class="fas fa-undo-alt"><%= link_to ' Back to the list', tasks_path %></i></p>
+</div>
+

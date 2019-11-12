@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  font-family: Helvetica;
+}
+.fa-trash, .fa-plus, .fa-undo {
+  color: blue;
+  font-family: Helvetica;
+}
+
+.fa-pencil {
+  color: white;
+  font-family: Helvetica;
+}
+
+.jumbotron {
+  width: 700px;
+}
+
+p .btn {
+  color: white;
+}
+
+
+
+
